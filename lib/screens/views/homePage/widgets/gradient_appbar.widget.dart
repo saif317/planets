@@ -19,7 +19,7 @@ class GradientAppBar extends StatelessWidget {
       decoration: const BoxDecoration(
         gradient: LinearGradient(
           colors: [
-            Color.fromRGBO(38, 96, 164, 1.0),
+            Color.fromRGBO(33, 5, 53, 1.0),
             Color.fromRGBO(15, 255, 149, 1.0),
           ],
           begin: FractionalOffset(0.0, 0.0),

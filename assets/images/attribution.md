@@ -1,3 +1,3 @@
 # Attribution
 
-[mars.png](https://www.flaticon.com/premium-icon/mars_1146292?related_id=1146292&origin=search)
+[Solar System Planets Icons](https://www.flaticon.com/packs/space-279?style_id=15&family_id=3&group_id=1)

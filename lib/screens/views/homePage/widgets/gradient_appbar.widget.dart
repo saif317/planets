@@ -20,7 +20,7 @@ class GradientAppBar extends StatelessWidget {
         gradient: LinearGradient(
           colors: [
             Color.fromRGBO(33, 5, 53, 1.0),
-            Color.fromRGBO(15, 255, 149, 1.0),
+            Color.fromRGBO(245, 213, 224, 1.0),
           ],
           begin: FractionalOffset(0.0, 0.0),
           end: FractionalOffset(1.0, 0.0),
@@ -33,7 +33,7 @@ class GradientAppBar extends StatelessWidget {
           style: const TextStyle(
             color: Colors.black,
             fontFamily: 'StarCruiser',
-            fontSize: 36.0,
+            fontSize: 53.0,
           ),
         ),
       ),

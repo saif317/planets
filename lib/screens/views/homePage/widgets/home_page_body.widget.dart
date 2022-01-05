@@ -7,8 +7,24 @@ class HomePageBody extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return PlanetRow(
-      planet: planets[0],
+    return Expanded(
+      child: Container(
+        color: const Color.fromRGBO(245, 213, 224, 1.0),
+        child: CustomScrollView(
+          scrollDirection: Axis.vertical,
+          slivers: <Widget>[
+            SliverPadding(
+              padding: const EdgeInsets.symmetric(vertical: 24.0),
+              sliver: SliverFixedExtentList(
+                  delegate: SliverChildBuilderDelegate(
+                    (context, index) => PlanetRow(planet: planets[index]),
+                    childCount: planets.length,
+                  ),
+                  itemExtent: 152.0),
+            ),
+          ],
+        ),
+      ),
     );
   }
 }

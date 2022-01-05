@@ -13,8 +13,6 @@ class HomePage extends StatelessWidget {
         children: const [
           GradientAppBar(title: 'Space Away'),
           HomePageBody(),
-          HomePageBody(),
-          HomePageBody(),
         ],
       ),
     );
